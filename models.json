@@ -1,0 +1,41 @@
+[
+  {
+    "id": "round_wood_v14_ultra",
+    "name": "Круглый лес (Ультра V14)",
+    "category": "round_wood",
+    "version": "1.4",
+    "size_bytes": 47700209,
+    "size_mb": 45.5,
+    "input_size": 640,
+    "description": "Флагманская сегментационная модель повышенной точности для круглого леса и штабелей бревен.",
+    "is_default": true,
+    "filename": "MY_FOREST_SOURCE_V14_ULTRA_SEG_ULTRA.tflite",
+    "url": "https://github.com/Lesorub361/lesorub_models/releases/download/v1.0.0/MY_FOREST_SOURCE_V14_ULTRA_SEG_ULTRA.tflite"
+  },
+  {
+    "id": "round_wood_fast",
+    "name": "Круглый лес (Быстрая)",
+    "category": "round_wood",
+    "version": "1.0",
+    "size_bytes": 13298783,
+    "size_mb": 12.7,
+    "input_size": 640,
+    "description": "Облегченная модель для быстрой детекции бревен на слабых устройствах.",
+    "is_default": false,
+    "filename": "best_float32.tflite",
+    "url": "https://github.com/Lesorub361/lesorub_models/releases/download/v1.0.0/best_float32.tflite"
+  },
+  {
+    "id": "lumber_pack_v1",
+    "name": "Пиломатериалы (Доска / Брус)",
+    "category": "lumber",
+    "version": "1.0",
+    "size_bytes": 3346801,
+    "size_mb": 3.2,
+    "input_size": 640,
+    "description": "Распознавание досок в пакетах, штабелях пиломатериалов и бруса.",
+    "is_default": false,
+    "filename": "lumber_model.tflite",
+    "url": "https://github.com/Lesorub361/lesorub_models/releases/download/v1.0.0/lumber_model.tflite"
+  }
+]
